@@ -1,0 +1,18 @@
+.chartBox {
+  width: 700px;
+  padding: 20px;
+  border-radius: 20px;
+  background: white;
+  display: flex;
+}
+.colSmall {
+  width: 35px;
+}
+.colLarge {
+  width: 650px;
+  overflow-x: scroll;
+}
+.box {
+  width: calc(3000px - 35px);
+  height: 500px;
+}

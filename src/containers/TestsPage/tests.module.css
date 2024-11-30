@@ -1,0 +1,11 @@
+.otherAppsPage {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      overflow-y: scroll;
+}
+
+.defaultBackgroundClassName {
+  background-color: #F5F7F9;
+}

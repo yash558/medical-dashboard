@@ -1,0 +1,122 @@
+.mobileSideBarSection {
+  padding: 42px 17.75px 42px 17.75px;
+  padding-top: 70px;
+  padding-left: 20px;
+  background-color: var(--pure-white);
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: -3px 0px 12.4px 0px var(--secondary-gray-light);
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+}
+
+.sideBarItems {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.sideBarItem {
+  display: flex;
+  padding: 16px 8px 16px 8px;
+  gap: 16px;
+  border-radius: 32px;
+  color: var(--primary-blue);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.25px;
+  align-items: center;
+  width: 276px;
+  height: 52.5px;
+}
+
+.linkActive {
+  background-color: var(--primary-blue-light);
+}
+.mobileSideBarFooter {
+  margin-top: auto;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  max-width: 276px;
+}
+
+.moreLinks {
+  display: flex;
+  gap: 8px;
+}
+
+.report,
+.contact {
+  background-color: var(--primary-blue-light);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.25px;
+  color: var(--primary-blue);
+  flex-grow: 1;
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.loginAndUserDetails {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  gap: 8px;
+}
+
+.userInformation {
+  width: 50%;
+}
+.userName {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.25px;
+  color: var(--text-black-dark);
+}
+
+.email {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.signoutButton,
+.signInLink {
+  width: 50%;
+  max-width: 100px;
+  height: 44px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: var(--primary-gray-light);
+  color: var(--primary-blue);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 1.25px;
+  flex-basis: 1;
+}
+
+.signInLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuCloseIcon {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  cursor: pointer;
+}

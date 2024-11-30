@@ -1,0 +1,15 @@
+.mobileNavigationTabSection {
+  justify-content: space-between;
+  width: 393px;
+
+  padding: 16px 32px 16px 32px;
+  border-radius: 32px 32px 0px 0px;
+  box-shadow: 0px -4px 7.8px 0px var(--quinary-black);
+  display: none;
+  background-color: var(--pure-white);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 100;
+}
+

@@ -1,0 +1,7 @@
+export * from "./AddressDetails"
+export * from "./PersonalDetails"
+export * from "./ReferenceDetails"
+export * from "./CountrySelect"
+export * from "./ProvinceSelect"
+export * from "./ContactDetails"
+export * from "./DoctorInfo"

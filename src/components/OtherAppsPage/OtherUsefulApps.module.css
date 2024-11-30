@@ -1,0 +1,119 @@
+.header {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+}
+.heading {
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 36px;
+      color: var(--quaternary-black);
+}
+
+.description {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0.15000000596046448px;
+      color: var(--text-light-gray);
+}
+
+.mobileBackButton {
+      display: none;
+      margin-bottom: 45px;
+}
+
+.resourceLibrary {
+      display: none;
+      color: var(--primary-blue);
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 1.25px;
+}
+
+.mainContent {
+      display: flex;
+      gap: 32px;
+}
+
+.UsefullAppCardsWrapper {
+      width: 100%;
+      max-width: 989px;
+      display: grid;
+      display: grid;
+      grid-template-columns: auto auto;
+      column-gap: 32px;
+      row-gap: 32px;
+}
+
+.rightSection {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+
+      align-items: center;
+}
+
+@media (max-width: 700px) {
+      .UsefullAppCardsWrapper {
+            min-width: unset;
+            max-width: unset;
+            grid-template-columns: auto;
+      }
+
+      .rightSection {
+            display: flex;
+      }
+
+      .heading,
+      .description {
+            display: none;
+      }
+      .resourceLibrary {
+            display: block;
+      }
+
+      .mobileBackButton {
+            display: block;
+      }
+
+      .header {
+            gap: 16px;
+      }
+}
+
+
+@media (max-width : 728px) {
+      .mainContent{
+            display: flex;
+            flex-direction: column;
+      }
+}
+
+@media (max-width: 700px) {
+      .header {
+            gap: 0;
+      }
+}
+
+@media (max-width: 1600px) {
+      .rightSection {
+            display: none;
+      }
+}
+
+@media (max-width: 1700px) {
+      .heading {
+            font-size: 26px;
+      }
+      .description {
+            font-size: 16px;
+      }
+}
+
+@media (max-width: 700px) and (max-height: 800px) {
+      .mobileBackButton {
+            margin-bottom: 15px;
+      }
+}

@@ -1,0 +1,5 @@
+.verticalSlider {
+  -webkit-appearance: slider-vertical;
+  appearance: slider-vertical;
+  opacity: 0.01;
+}

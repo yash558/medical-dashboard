@@ -1,0 +1,64 @@
+.navBarSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 76px 12px 76px;
+  background-color: var(--pure-white);
+  align-items: center;
+  
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navLink {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: var(--text-light-gray);
+}
+
+.routeActive {
+  color: var(--primary-blue);
+}
+
+.signoutButton,
+.signInLink {
+  width: 134px;
+  height: 44px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: var(--primary-gray-light);
+  color: var(--primary-blue);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.25px;
+}
+
+.signInLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuOpenIcon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navBarSection {
+    padding: 10px 15px 10px 15px;
+  }
+  .menuOpenIcon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navLinks {
+    display: none;
+  }
+}

@@ -1,0 +1,20 @@
+.pdfView {
+  width: 100%;
+  max-width: 1604px;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+@media (max-width: 700px) {
+  .pdfView {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 823px) {
+  .defaultBackgroundClassName {
+    display: none;
+  }
+}

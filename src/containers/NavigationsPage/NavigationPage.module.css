@@ -1,0 +1,58 @@
+.mainPageAndSideBar {
+      display: flex;
+      flex-grow: 1;
+      overflow-y: auto;
+}
+
+.mobileNavigationTabSection {
+      justify-content: space-between;
+      width: 393px;
+      padding: 16px 32px 16px 32px;
+      border-radius: 32px 32px 0px 0px;
+      box-shadow: 0px -4px 7.8px 0px #0000000d;
+      display: none;
+      background-color: var(--pure-white);
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+}
+
+.pageBackgroundWrapper {
+      position: absolute;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      z-index: -1;
+}
+
+.backgroundPartOne {
+      background-color: #f5f9ff;
+      height: 100svh; /* Ensures it covers the full viewport height */
+      width: 100%;   /* Ensures it covers the full width */
+    }
+    
+    .backgroundPartTwo {
+      background-image: url("../../assets/Common/background.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      flex-grow: 1;
+      z-index: 1;
+      position: relative; /* Ensures it layers properly */
+    }
+    
+@media (max-width: 700px) {
+      .mobileNavigationTabSection {
+            display: flex;
+      }
+
+      .sideBarSection {
+            display: none;
+      }
+      .backgroundPartOne {
+            background-color: var(--pure-white);
+      }
+}

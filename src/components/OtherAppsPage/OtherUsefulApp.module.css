@@ -1,0 +1,62 @@
+.usefulAppCardWrapper {
+      padding: 32px;
+      border-radius: 16px;
+      background-color: var(--pure-white);
+}
+
+.iconWrapper {
+      display: flex;
+      justify-content: end;
+}
+
+.appName {
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 36px;
+      color: var(--primary-blue);
+      margin-bottom: 24px;
+}
+
+.appDescription {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+      color: var(--text-light-gray);
+}
+
+.appLinkButton {
+      background-color: var(--primary-blue);
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 1.25px;
+      color: white;
+      width: 100%;
+      border-radius: 8px;
+      height: 44px;
+      margin-top: 32px;
+}
+
+@media (max-width: 700px) {
+      .appName {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.18000000715255737px;
+      }
+
+      .appDescription {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+      }
+}
+
+@media (max-width: 1700px) {
+      .appName {
+            font-size: 26px;
+      }
+}

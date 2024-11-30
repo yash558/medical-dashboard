@@ -1,0 +1,15 @@
+.subSideBarWrapper {
+    position: fixed;
+    top: 40%;
+    left: 23rem;
+    height: 40vh;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.85); /* More transparent background */
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    backdrop-filter: blur(10px); /* Blurring the background behind */
+    -webkit-backdrop-filter: blur(10px); /* Ensure compatibility with WebKit browsers */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Soft border for definition */
+    border-radius: 24px; /* Rounded corners */
+    z-index: 10;
+    transition: transform 0.3s ease-in-out;
+}

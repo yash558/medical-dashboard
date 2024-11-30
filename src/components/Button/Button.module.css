@@ -1,0 +1,135 @@
+/* Primary button */
+.primary-default {
+  color: #ffffff;
+  background-color: var(--primary-blue);
+}
+
+.primary-hover:hover {
+  background-color: var(--primary-blue-80);
+  cursor: pointer;
+}
+
+.primary-disabled:disabled {
+  cursor: not-allowed;
+  background-color: var(--primary-blue-60);
+}
+
+/* Secondary button */
+.secondary-default {
+  color: var(--primary-blue);
+  background-color: transparent;
+  border: 1px solid var(--primary-blue);
+}
+
+.secondary-hover:hover {
+  background-color: var(--primary-blue-20);
+  cursor: pointer;
+}
+
+.secondary-disabled:disabled {
+  cursor: not-allowed;
+  color: var(--primary-blue-60);
+  border-color: var(--primary-blue-60);
+}
+
+/* Transparent button */
+.transparent-default {
+  background-color: transparent;
+}
+
+.transparent-hover:hover {
+  cursor: pointer;
+}
+
+.transparent-disabled:disabled {
+  cursor: not-allowed;
+  color: var(--sec-grey); /* custom-text-400 */
+}
+
+/* ------------------------------------------ */
+
+/* Small button */
+.sm-btn {
+  height: 32px; /* Smaller height */
+  padding: 8px 12px; /* Smaller padding */
+  font-size: 12px; /* Smaller font size */
+  font-weight: 500;
+  line-height: 1.2;
+  border-radius: 6px; /* Smaller border radius */
+  display: flex;
+  align-items: center;
+  gap: 6px; /* Smaller gap */
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  justify-content: center;
+}
+
+/* Medium button */
+.md-btn {
+  height: 44px;
+  padding: 14px 16px;
+  font-size: 14px; /* 14px */
+  font-weight: 500;
+  line-height: 1.2;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  justify-content: center;
+}
+
+/* Large button */
+.lg-btn {
+  height: 56px; /* Larger height */
+  padding: 16px 20px; /* Larger padding */
+  font-size: 16px; /* Larger font size */
+  font-weight: 500;
+  line-height: 1.2;
+  border-radius: 10px; /* Larger border radius */
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Larger gap */
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  justify-content: center;
+}
+
+/* index.css */
+
+/* Small button icon */
+.sm-icon {
+  height: 3px; /* 3px */
+  width: 3px; /* 3px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0.5px; /* 0.5px */
+  flex-shrink: 0;
+}
+
+/* Medium button icon */
+.md-icon {
+  height: 3.5px; /* 3.5px */
+  width: 3.5px; /* 3.5px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0.5px; /* 0.5px */
+  flex-shrink: 0;
+}
+
+/* Large button icon */
+.lg-icon {
+  height: 4px; /* 4px */
+  width: 4px; /* 4px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0.5px; /* 0.5px */
+  flex-shrink: 0;
+}
